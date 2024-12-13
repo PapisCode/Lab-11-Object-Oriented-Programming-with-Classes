@@ -24,3 +24,11 @@ removeProduct(product) {
 getInventoryValue() {
     return this.inventory.reduce((total, product) => total + product.getTotalValue(), 0);
 }
+
+// Find product by name
+findProductByName(name) {
+    return this.inventory.find(product => product.name === name) || null;
+}
+}
+
+module.exports = Store;
