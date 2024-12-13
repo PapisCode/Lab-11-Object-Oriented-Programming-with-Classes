@@ -19,3 +19,8 @@ removeProduct(product) {
         console.log(`Product "${product.name}" has been removed from the inventory`);
     }
 }
+
+// Calculate total value of all products in the inventory
+getInventoryValue() {
+    return this.inventory.reduce((total, product) => total + product.getTotalValue(), 0);
+}
