@@ -22,7 +22,7 @@ getTotalValue() {
     return `Product ${this.name}, Price: $${this.price.toFixed(2)}, Quantity: ${this.quantity}`;
  }
 
- // Method to applt the discount to any array of products
+ // Method to apply the discount to any array of products
  static applyDiscount(products, discount) {
     products.forEach(products => {
         products.price -= product.price * discount;
