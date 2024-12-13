@@ -8,3 +8,10 @@ const product2 = new Product('Monitor', 450, 5);
 const product3 = new Product('Mouse', 100, 10);
 const product4 = new Product('Storage Device', 85, 10);
 const product5 = new Product('Chair', 500, 6);
+
+//Create Perishable Products
+const perishable1 = new PerishableProduct('Milk', 2.0, 15, '2024-12-31');
+const perishable2 = new PerishableProduct('Cheese', 7.5, 15, '2025-01-31');
+const perishable3 = new PerishableProduct('Yogurt', 3.0, 12, '2025-01-31');
+const perishable4 = new PerishableProduct('Banana', 4.0, 12, '2024-12-28');
+
