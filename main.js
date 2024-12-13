@@ -32,3 +32,6 @@ console.log('Total Inventory Value (Before Discount): $', store.getInventoryValu
 
 //Application of 15% discount
 Product.applyDiscount(store.inventory, 0.15);
+
+//Print total inventory value after discount
+console.log('Total Inventory Value (After Discount): $', store.getInventoryValue().toFixed(2));
