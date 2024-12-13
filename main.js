@@ -15,3 +15,10 @@ const perishable2 = new PerishableProduct('Cheese', 7.5, 15, '2025-01-31');
 const perishable3 = new PerishableProduct('Yogurt', 3.0, 12, '2025-01-31');
 const perishable4 = new PerishableProduct('Banana', 4.0, 12, '2024-12-28');
 
+//Create Store with products
+const store = new Store();
+store.addProduct(product1);
+store.addProduct(product2);
+store.addProduct(product3);
+store.addProduct(product4);
+store.addProduct(product5);
