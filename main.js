@@ -22,3 +22,7 @@ store.addProduct(product2);
 store.addProduct(product3);
 store.addProduct(product4);
 store.addProduct(product5);
+store.addProduct(perishable1);
+store.addProduct(perishable2);
+store.addProduct(perishable3);
+store.addProduct(perishable4);
