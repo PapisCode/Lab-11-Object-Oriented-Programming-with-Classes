@@ -30,4 +30,4 @@ getTotalValue() {
     }
 }
 
-Module.exports = Product;
+module.exports = Product;
