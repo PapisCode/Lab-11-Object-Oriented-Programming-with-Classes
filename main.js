@@ -26,3 +26,6 @@ store.addProduct(perishable1);
 store.addProduct(perishable2);
 store.addProduct(perishable3);
 store.addProduct(perishable4);
+
+//Print total inventory value before discount
+console.log('Total Inventory Value (Before Discount): $', store.getInventoryValue().toFixed(2));
