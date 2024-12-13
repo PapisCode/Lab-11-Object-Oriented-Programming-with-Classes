@@ -35,3 +35,12 @@ Product.applyDiscount(store.inventory, 0.15);
 
 //Print total inventory value after discount
 console.log('Total Inventory Value (After Discount): $', store.getInventoryValue().toFixed(2));
+
+//Find and print details of a specific product (by name)
+const productName = 'Milk';
+const foundProduct = store.findProductByName(productName);
+if (foundProduct) {
+    console.log(`Details of Product "${productName}":`, foundProduct.toString());
+} else {
+    console.log(`Product "${productName}" not found in inventory.`);
+}
