@@ -29,3 +29,6 @@ store.addProduct(perishable4);
 
 //Print total inventory value before discount
 console.log('Total Inventory Value (Before Discount): $', store.getInventoryValue().toFixed(2));
+
+//Application of 15% discount
+Product.applyDiscount(store.inventory, 0.15);
